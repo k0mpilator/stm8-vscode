@@ -1,0 +1,172 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 1.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  002710 L
+    .__.ABS.                                                    =  000000 G
+    .__.CPU.                                                    =  000000 L
+    .__.H$L.                                                    =  000001 L
+  A A$mainS103F3_DEBUG/main$103                                    000000 GR
+  A A$mainS103F3_DEBUG/main$104                                    000002 GR
+  A A$mainS103F3_DEBUG/main$108                                    000004 GR
+  A A$mainS103F3_DEBUG/main$109                                    000008 GR
+  A A$mainS103F3_DEBUG/main$110                                    000009 GR
+  A A$mainS103F3_DEBUG/main$111                                    00000B GR
+  A A$mainS103F3_DEBUG/main$112                                    00000C GR
+  A A$mainS103F3_DEBUG/main$113                                    00000D GR
+  A A$mainS103F3_DEBUG/main$114                                    00000F GR
+  A A$mainS103F3_DEBUG/main$116                                    000010 GR
+  A A$mainS103F3_DEBUG/main$117                                    000012 GR
+  A A$mainS103F3_DEBUG/main$118                                    000014 GR
+  A A$mainS103F3_DEBUG/main$119                                    000015 GR
+  A A$mainS103F3_DEBUG/main$121                                    000017 GR
+  A A$mainS103F3_DEBUG/main$130                                    00001A GR
+  A A$mainS103F3_DEBUG/main$145                                    00001B GR
+  A A$mainS103F3_DEBUG/main$147                                    00001D GR
+  A A$mainS103F3_DEBUG/main$150                                    00001F GR
+  A A$mainS103F3_DEBUG/main$151                                    000022 GR
+  A A$mainS103F3_DEBUG/main$156                                    000024 GR
+  A A$mainS103F3_DEBUG/main$159                                    000026 GR
+  A A$mainS103F3_DEBUG/main$162                                    000028 GR
+  A A$mainS103F3_DEBUG/main$164                                    00002A GR
+  A A$mainS103F3_DEBUG/main$167                                    00002C GR
+  A A$mainS103F3_DEBUG/main$168                                    00002F GR
+  A A$mainS103F3_DEBUG/main$176                                    000031 GR
+  A A$mainS103F3_DEBUG/main$178                                    000033 GR
+  A A$mainS103F3_DEBUG/main$180                                    000035 GR
+  A A$mainS103F3_DEBUG/main$181                                    000036 GR
+  A A$mainS103F3_DEBUG/main$184                                    000037 GR
+  A A$mainS103F3_DEBUG/main$185                                    00003A GR
+  A A$mainS103F3_DEBUG/main$190                                    00003C GR
+  A A$mainS103F3_DEBUG/main$193                                    00003E GR
+  A A$mainS103F3_DEBUG/main$195                                    000040 GR
+  A A$mainS103F3_DEBUG/main$198                                    000042 GR
+  A A$mainS103F3_DEBUG/main$199                                    000045 GR
+  A A$mainS103F3_DEBUG/main$202                                    000047 GR
+  A A$mainS103F3_DEBUG/main$211                                    00004A GR
+  A A$mainS103F3_DEBUG/main$228                                    00004B GR
+  A A$mainS103F3_DEBUG/main$236                                    00004E GR
+  5 A$mainS103F3_DEBUG/main$49                                     000000 GR
+  6 A$mainS103F3_DEBUG/main$60                                     000000 GR
+  6 A$mainS103F3_DEBUG/main$61                                     000003 GR
+  6 A$mainS103F3_DEBUG/main$63                                     000005 GR
+  6 A$mainS103F3_DEBUG/main$64                                     000009 GR
+  6 A$mainS103F3_DEBUG/main$65                                     00000A GR
+  6 A$mainS103F3_DEBUG/main$67                                     00000C GR
+  6 A$mainS103F3_DEBUG/main$68                                     00000F GR
+  6 A$mainS103F3_DEBUG/main$70                                     000011 GR
+  6 A$mainS103F3_DEBUG/main$71                                     000014 GR
+  6 A$mainS103F3_DEBUG/main$72                                     000017 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 2.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  6 A$mainS103F3_DEBUG/main$73                                     000018 GR
+  7 A$mainS103F3_DEBUG/main$77                                     000000 GR
+  5 A$mainS103F3_DEBUG/main$84                                     000004 GR
+ 11 Ldebug_CIE0_end                                                000012 R
+ 11 Ldebug_CIE0_start                                              000004 R
+ 11 Ldebug_CIE1_end                                                00003B R
+ 11 Ldebug_CIE1_start                                              00002D R
+ 11 Ldebug_CIE2_end                                                0000D4 R
+ 11 Ldebug_CIE2_start                                              0000C6 R
+  E Ldebug_abbrev                                                  000000 R
+  F Ldebug_info_end                                                0000E2 R
+  F Ldebug_info_start                                              000004 R
+  C Ldebug_line_end                                                000121 R
+  C Ldebug_line_start                                              000004 R
+  C Ldebug_line_stmt                                               0000BA R
+  D Ldebug_loc_start                                               000000 R
+ 10 Ldebug_pubnames_end                                            00002D R
+ 10 Ldebug_pubnames_start                                          000004 R
+  A Smain$assert_failed$33                                      =  00004B GR
+  A Smain$assert_failed$34                                      =  00004B GR
+  A Smain$assert_failed$35                                      =  00004B GR
+  A Smain$assert_failed$36                                      =  00004E GR
+  A Smain$assert_failed$37                                      =  00004E GR
+  A Smain$assert_failed$38                                      =  00004F GR
+  A Smain$delay$0                                               =  000000 GR
+  A Smain$delay$1                                               =  000000 GR
+  A Smain$delay$2                                               =  000000 GR
+  A Smain$delay$3                                               =  00001A GR
+  A Smain$delay$4                                               =  00001A GR
+  A Smain$delay$5                                               =  00001B GR
+  A Smain$main$10                                               =  00001F GR
+  A Smain$main$11                                               =  000024 GR
+  A Smain$main$12                                               =  000024 GR
+  A Smain$main$13                                               =  000026 GR
+  A Smain$main$14                                               =  000028 GR
+  A Smain$main$15                                               =  00002A GR
+  A Smain$main$16                                               =  00002C GR
+  A Smain$main$17                                               =  000031 GR
+  A Smain$main$18                                               =  000031 GR
+  A Smain$main$19                                               =  000031 GR
+  A Smain$main$20                                               =  000033 GR
+  A Smain$main$21                                               =  000035 GR
+  A Smain$main$22                                               =  000037 GR
+  A Smain$main$23                                               =  00003C GR
+  A Smain$main$24                                               =  00003C GR
+  A Smain$main$25                                               =  00003E GR
+  A Smain$main$26                                               =  000040 GR
+  A Smain$main$27                                               =  000042 GR
+  A Smain$main$28                                               =  000047 GR
+  A Smain$main$29                                               =  00004A GR
+  A Smain$main$30                                               =  00004A GR
+  A Smain$main$31                                               =  00004A GR
+  A Smain$main$32                                               =  00004B GR
+  A Smain$main$6                                                =  00001B GR
+  A Smain$main$7                                                =  00001B GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 3.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  A Smain$main$8                                                =  00001B GR
+  A Smain$main$9                                                =  00001D GR
+  A XFmain$delay$0$0                                            =  00001A GR
+  A XG$assert_failed$0$0                                        =  00004E GR
+  A XG$main$0$0                                                 =  00004A GR
+    _GPIO_DeInit                                                   ****** GX
+    _GPIO_Init                                                     ****** GX
+    _GPIO_WriteReverse                                             ****** GX
+  5 __interrupt_vect                                               000000 R
+  6 __sdcc_gs_init_startup                                         000000 R
+  6 __sdcc_init_data                                               000000 R
+  5 __sdcc_program_startup                                         000004 R
+  3 __start__stack                                                 000000 R
+  A _assert_failed                                                 00004B GR
+  A _delay                                                         000000 R
+  A _main                                                          00001B GR
+    l_DATA                                                         ****** GX
+    l_INITIALIZER                                                  ****** GX
+    s_DATA                                                         ****** GX
+    s_GSINIT                                                       ****** GX
+    s_INITIALIZED                                                  ****** GX
+    s_INITIALIZER                                                  ****** GX
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 4.
+Hexadecimal [24-Bits]
+
+Area Table
+
+   0 _CODE                                      size      0   flags    0
+   1 DATA                                       size      0   flags    0
+   2 INITIALIZED                                size      0   flags    0
+   3 SSEG                                       size      1   flags    0
+   4 DABS                                       size      0   flags    8
+   5 HOME                                       size      7   flags    0
+   6 GSINIT                                     size     1A   flags    0
+   7 GSFINAL                                    size      3   flags    0
+   8 CONST                                      size      0   flags    0
+   9 INITIALIZER                                size      0   flags    0
+   A CODE                                       size     4F   flags    0
+   B CABS                                       size      0   flags    8
+   C .debug_line                                size    121   flags  100
+   D .debug_loc                                 size     FC   flags  100
+   E .debug_abbrev                              size     47   flags  100
+   F .debug_info                                size     E2   flags  100
+  10 .debug_pubnames                            size     2D   flags  100
+  11 .debug_frame                               size     EB   flags  100
+

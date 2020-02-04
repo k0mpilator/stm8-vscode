@@ -1,0 +1,283 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 1.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  002710 L
+    .__.ABS.                                                    =  000000 G
+    .__.CPU.                                                    =  000000 L
+    .__.H$L.                                                    =  000001 L
+  9 A$stm8s_itF3_DEBUG/stm8s_it$110                                000001 GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$132                                000002 GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$154                                000003 GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$176                                000004 GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$198                                000005 GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$220                                000006 GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$242                                000007 GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$264                                000008 GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$286                                000009 GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$308                                00000A GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$330                                00000B GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$352                                00000C GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$374                                00000D GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$396                                00000E GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$418                                00000F GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$440                                000010 GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$462                                000011 GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$484                                000012 GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$506                                000013 GR
+  9 A$stm8s_itF3_DEBUG/stm8s_it$88                                 000000 GR
+ 10 Ldebug_CIE0_end                                                000012 R
+ 10 Ldebug_CIE0_start                                              000004 R
+ 10 Ldebug_CIE10_end                                               0001AC R
+ 10 Ldebug_CIE10_start                                             00019E R
+ 10 Ldebug_CIE11_end                                               0001D5 R
+ 10 Ldebug_CIE11_start                                             0001C7 R
+ 10 Ldebug_CIE12_end                                               0001FE R
+ 10 Ldebug_CIE12_start                                             0001F0 R
+ 10 Ldebug_CIE13_end                                               000227 R
+ 10 Ldebug_CIE13_start                                             000219 R
+ 10 Ldebug_CIE14_end                                               000250 R
+ 10 Ldebug_CIE14_start                                             000242 R
+ 10 Ldebug_CIE15_end                                               000279 R
+ 10 Ldebug_CIE15_start                                             00026B R
+ 10 Ldebug_CIE16_end                                               0002A2 R
+ 10 Ldebug_CIE16_start                                             000294 R
+ 10 Ldebug_CIE17_end                                               0002CB R
+ 10 Ldebug_CIE17_start                                             0002BD R
+ 10 Ldebug_CIE18_end                                               0002F4 R
+ 10 Ldebug_CIE18_start                                             0002E6 R
+ 10 Ldebug_CIE19_end                                               00031D R
+ 10 Ldebug_CIE19_start                                             00030F R
+ 10 Ldebug_CIE1_end                                                00003B R
+ 10 Ldebug_CIE1_start                                              00002D R
+ 10 Ldebug_CIE2_end                                                000064 R
+ 10 Ldebug_CIE2_start                                              000056 R
+ 10 Ldebug_CIE3_end                                                00008D R
+ 10 Ldebug_CIE3_start                                              00007F R
+ 10 Ldebug_CIE4_end                                                0000B6 R
+ 10 Ldebug_CIE4_start                                              0000A8 R
+ 10 Ldebug_CIE5_end                                                0000DF R
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 2.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+ 10 Ldebug_CIE5_start                                              0000D1 R
+ 10 Ldebug_CIE6_end                                                000108 R
+ 10 Ldebug_CIE6_start                                              0000FA R
+ 10 Ldebug_CIE7_end                                                000131 R
+ 10 Ldebug_CIE7_start                                              000123 R
+ 10 Ldebug_CIE8_end                                                00015A R
+ 10 Ldebug_CIE8_start                                              00014C R
+ 10 Ldebug_CIE9_end                                                000183 R
+ 10 Ldebug_CIE9_start                                              000175 R
+  D Ldebug_abbrev                                                  000000 R
+  E Ldebug_info_end                                                000306 R
+  E Ldebug_info_start                                              000004 R
+  B Ldebug_line_end                                                000302 R
+  B Ldebug_line_start                                              000004 R
+  B Ldebug_line_stmt                                               0000BE R
+  C Ldebug_loc_start                                               000000 R
+  F Ldebug_pubnames_end                                            0001FD R
+  F Ldebug_pubnames_start                                          000004 R
+  9 Sstm8s_it$ADC1_IRQHandler$102                               =  000011 GR
+  9 Sstm8s_it$ADC1_IRQHandler$103                               =  000011 GR
+  9 Sstm8s_it$ADC1_IRQHandler$104                               =  000011 GR
+  9 Sstm8s_it$ADC1_IRQHandler$105                               =  000011 GR
+  9 Sstm8s_it$ADC1_IRQHandler$106                               =  000011 GR
+  9 Sstm8s_it$ADC1_IRQHandler$107                               =  000012 GR
+  9 Sstm8s_it$AWU_IRQHandler$12                                 =  000002 GR
+  9 Sstm8s_it$AWU_IRQHandler$13                                 =  000002 GR
+  9 Sstm8s_it$AWU_IRQHandler$14                                 =  000002 GR
+  9 Sstm8s_it$AWU_IRQHandler$15                                 =  000002 GR
+  9 Sstm8s_it$AWU_IRQHandler$16                                 =  000002 GR
+  9 Sstm8s_it$AWU_IRQHandler$17                                 =  000003 GR
+  9 Sstm8s_it$CLK_IRQHandler$18                                 =  000003 GR
+  9 Sstm8s_it$CLK_IRQHandler$19                                 =  000003 GR
+  9 Sstm8s_it$CLK_IRQHandler$20                                 =  000003 GR
+  9 Sstm8s_it$CLK_IRQHandler$21                                 =  000003 GR
+  9 Sstm8s_it$CLK_IRQHandler$22                                 =  000003 GR
+  9 Sstm8s_it$CLK_IRQHandler$23                                 =  000004 GR
+  9 Sstm8s_it$EEPROM_EEC_IRQHandler$114                         =  000013 GR
+  9 Sstm8s_it$EEPROM_EEC_IRQHandler$115                         =  000013 GR
+  9 Sstm8s_it$EEPROM_EEC_IRQHandler$116                         =  000013 GR
+  9 Sstm8s_it$EEPROM_EEC_IRQHandler$117                         =  000013 GR
+  9 Sstm8s_it$EEPROM_EEC_IRQHandler$118                         =  000013 GR
+  9 Sstm8s_it$EEPROM_EEC_IRQHandler$119                         =  000014 GR
+  9 Sstm8s_it$EXTI_PORTA_IRQHandler$24                          =  000004 GR
+  9 Sstm8s_it$EXTI_PORTA_IRQHandler$25                          =  000004 GR
+  9 Sstm8s_it$EXTI_PORTA_IRQHandler$26                          =  000004 GR
+  9 Sstm8s_it$EXTI_PORTA_IRQHandler$27                          =  000004 GR
+  9 Sstm8s_it$EXTI_PORTA_IRQHandler$28                          =  000004 GR
+  9 Sstm8s_it$EXTI_PORTA_IRQHandler$29                          =  000005 GR
+  9 Sstm8s_it$EXTI_PORTB_IRQHandler$30                          =  000005 GR
+  9 Sstm8s_it$EXTI_PORTB_IRQHandler$31                          =  000005 GR
+  9 Sstm8s_it$EXTI_PORTB_IRQHandler$32                          =  000005 GR
+  9 Sstm8s_it$EXTI_PORTB_IRQHandler$33                          =  000005 GR
+  9 Sstm8s_it$EXTI_PORTB_IRQHandler$34                          =  000005 GR
+  9 Sstm8s_it$EXTI_PORTB_IRQHandler$35                          =  000006 GR
+  9 Sstm8s_it$EXTI_PORTC_IRQHandler$36                          =  000006 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 3.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  9 Sstm8s_it$EXTI_PORTC_IRQHandler$37                          =  000006 GR
+  9 Sstm8s_it$EXTI_PORTC_IRQHandler$38                          =  000006 GR
+  9 Sstm8s_it$EXTI_PORTC_IRQHandler$39                          =  000006 GR
+  9 Sstm8s_it$EXTI_PORTC_IRQHandler$40                          =  000006 GR
+  9 Sstm8s_it$EXTI_PORTC_IRQHandler$41                          =  000007 GR
+  9 Sstm8s_it$EXTI_PORTD_IRQHandler$42                          =  000007 GR
+  9 Sstm8s_it$EXTI_PORTD_IRQHandler$43                          =  000007 GR
+  9 Sstm8s_it$EXTI_PORTD_IRQHandler$44                          =  000007 GR
+  9 Sstm8s_it$EXTI_PORTD_IRQHandler$45                          =  000007 GR
+  9 Sstm8s_it$EXTI_PORTD_IRQHandler$46                          =  000007 GR
+  9 Sstm8s_it$EXTI_PORTD_IRQHandler$47                          =  000008 GR
+  9 Sstm8s_it$EXTI_PORTE_IRQHandler$48                          =  000008 GR
+  9 Sstm8s_it$EXTI_PORTE_IRQHandler$49                          =  000008 GR
+  9 Sstm8s_it$EXTI_PORTE_IRQHandler$50                          =  000008 GR
+  9 Sstm8s_it$EXTI_PORTE_IRQHandler$51                          =  000008 GR
+  9 Sstm8s_it$EXTI_PORTE_IRQHandler$52                          =  000008 GR
+  9 Sstm8s_it$EXTI_PORTE_IRQHandler$53                          =  000009 GR
+  9 Sstm8s_it$I2C_IRQHandler$100                                =  000010 GR
+  9 Sstm8s_it$I2C_IRQHandler$101                                =  000011 GR
+  9 Sstm8s_it$I2C_IRQHandler$96                                 =  000010 GR
+  9 Sstm8s_it$I2C_IRQHandler$97                                 =  000010 GR
+  9 Sstm8s_it$I2C_IRQHandler$98                                 =  000010 GR
+  9 Sstm8s_it$I2C_IRQHandler$99                                 =  000010 GR
+  9 Sstm8s_it$SPI_IRQHandler$54                                 =  000009 GR
+  9 Sstm8s_it$SPI_IRQHandler$55                                 =  000009 GR
+  9 Sstm8s_it$SPI_IRQHandler$56                                 =  000009 GR
+  9 Sstm8s_it$SPI_IRQHandler$57                                 =  000009 GR
+  9 Sstm8s_it$SPI_IRQHandler$58                                 =  000009 GR
+  9 Sstm8s_it$SPI_IRQHandler$59                                 =  00000A GR
+  9 Sstm8s_it$TIM1_CAP_COM_IRQHandler$66                        =  00000B GR
+  9 Sstm8s_it$TIM1_CAP_COM_IRQHandler$67                        =  00000B GR
+  9 Sstm8s_it$TIM1_CAP_COM_IRQHandler$68                        =  00000B GR
+  9 Sstm8s_it$TIM1_CAP_COM_IRQHandler$69                        =  00000B GR
+  9 Sstm8s_it$TIM1_CAP_COM_IRQHandler$70                        =  00000B GR
+  9 Sstm8s_it$TIM1_CAP_COM_IRQHandler$71                        =  00000C GR
+  9 Sstm8s_it$TIM1_UPD_OVF_TRG_BRK_IRQHandler$60                =  00000A GR
+  9 Sstm8s_it$TIM1_UPD_OVF_TRG_BRK_IRQHandler$61                =  00000A GR
+  9 Sstm8s_it$TIM1_UPD_OVF_TRG_BRK_IRQHandler$62                =  00000A GR
+  9 Sstm8s_it$TIM1_UPD_OVF_TRG_BRK_IRQHandler$63                =  00000A GR
+  9 Sstm8s_it$TIM1_UPD_OVF_TRG_BRK_IRQHandler$64                =  00000A GR
+  9 Sstm8s_it$TIM1_UPD_OVF_TRG_BRK_IRQHandler$65                =  00000B GR
+  9 Sstm8s_it$TIM2_CAP_COM_IRQHandler$78                        =  00000D GR
+  9 Sstm8s_it$TIM2_CAP_COM_IRQHandler$79                        =  00000D GR
+  9 Sstm8s_it$TIM2_CAP_COM_IRQHandler$80                        =  00000D GR
+  9 Sstm8s_it$TIM2_CAP_COM_IRQHandler$81                        =  00000D GR
+  9 Sstm8s_it$TIM2_CAP_COM_IRQHandler$82                        =  00000D GR
+  9 Sstm8s_it$TIM2_CAP_COM_IRQHandler$83                        =  00000E GR
+  9 Sstm8s_it$TIM2_UPD_OVF_BRK_IRQHandler$72                    =  00000C GR
+  9 Sstm8s_it$TIM2_UPD_OVF_BRK_IRQHandler$73                    =  00000C GR
+  9 Sstm8s_it$TIM2_UPD_OVF_BRK_IRQHandler$74                    =  00000C GR
+  9 Sstm8s_it$TIM2_UPD_OVF_BRK_IRQHandler$75                    =  00000C GR
+  9 Sstm8s_it$TIM2_UPD_OVF_BRK_IRQHandler$76                    =  00000C GR
+  9 Sstm8s_it$TIM2_UPD_OVF_BRK_IRQHandler$77                    =  00000D GR
+  9 Sstm8s_it$TIM4_UPD_OVF_IRQHandler$108                       =  000012 GR
+  9 Sstm8s_it$TIM4_UPD_OVF_IRQHandler$109                       =  000012 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 4.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  9 Sstm8s_it$TIM4_UPD_OVF_IRQHandler$110                       =  000012 GR
+  9 Sstm8s_it$TIM4_UPD_OVF_IRQHandler$111                       =  000012 GR
+  9 Sstm8s_it$TIM4_UPD_OVF_IRQHandler$112                       =  000012 GR
+  9 Sstm8s_it$TIM4_UPD_OVF_IRQHandler$113                       =  000013 GR
+  9 Sstm8s_it$TLI_IRQHandler$10                                 =  000001 GR
+  9 Sstm8s_it$TLI_IRQHandler$11                                 =  000002 GR
+  9 Sstm8s_it$TLI_IRQHandler$6                                  =  000001 GR
+  9 Sstm8s_it$TLI_IRQHandler$7                                  =  000001 GR
+  9 Sstm8s_it$TLI_IRQHandler$8                                  =  000001 GR
+  9 Sstm8s_it$TLI_IRQHandler$9                                  =  000001 GR
+  9 Sstm8s_it$TRAP_IRQHandler$0                                 =  000000 GR
+  9 Sstm8s_it$TRAP_IRQHandler$1                                 =  000000 GR
+  9 Sstm8s_it$TRAP_IRQHandler$2                                 =  000000 GR
+  9 Sstm8s_it$TRAP_IRQHandler$3                                 =  000000 GR
+  9 Sstm8s_it$TRAP_IRQHandler$4                                 =  000000 GR
+  9 Sstm8s_it$TRAP_IRQHandler$5                                 =  000001 GR
+  9 Sstm8s_it$UART1_RX_IRQHandler$90                            =  00000F GR
+  9 Sstm8s_it$UART1_RX_IRQHandler$91                            =  00000F GR
+  9 Sstm8s_it$UART1_RX_IRQHandler$92                            =  00000F GR
+  9 Sstm8s_it$UART1_RX_IRQHandler$93                            =  00000F GR
+  9 Sstm8s_it$UART1_RX_IRQHandler$94                            =  00000F GR
+  9 Sstm8s_it$UART1_RX_IRQHandler$95                            =  000010 GR
+  9 Sstm8s_it$UART1_TX_IRQHandler$84                            =  00000E GR
+  9 Sstm8s_it$UART1_TX_IRQHandler$85                            =  00000E GR
+  9 Sstm8s_it$UART1_TX_IRQHandler$86                            =  00000E GR
+  9 Sstm8s_it$UART1_TX_IRQHandler$87                            =  00000E GR
+  9 Sstm8s_it$UART1_TX_IRQHandler$88                            =  00000E GR
+  9 Sstm8s_it$UART1_TX_IRQHandler$89                            =  00000F GR
+  9 XG$ADC1_IRQHandler$0$0                                      =  000011 GR
+  9 XG$AWU_IRQHandler$0$0                                       =  000002 GR
+  9 XG$CLK_IRQHandler$0$0                                       =  000003 GR
+  9 XG$EEPROM_EEC_IRQHandler$0$0                                =  000013 GR
+  9 XG$EXTI_PORTA_IRQHandler$0$0                                =  000004 GR
+  9 XG$EXTI_PORTB_IRQHandler$0$0                                =  000005 GR
+  9 XG$EXTI_PORTC_IRQHandler$0$0                                =  000006 GR
+  9 XG$EXTI_PORTD_IRQHandler$0$0                                =  000007 GR
+  9 XG$EXTI_PORTE_IRQHandler$0$0                                =  000008 GR
+  9 XG$I2C_IRQHandler$0$0                                       =  000010 GR
+  9 XG$SPI_IRQHandler$0$0                                       =  000009 GR
+  9 XG$TIM1_CAP_COM_IRQHandler$0$0                              =  00000B GR
+  9 XG$TIM1_UPD_OVF_TRG_BRK_IRQHandler$0$0                      =  00000A GR
+  9 XG$TIM2_CAP_COM_IRQHandler$0$0                              =  00000D GR
+  9 XG$TIM2_UPD_OVF_BRK_IRQHandler$0$0                          =  00000C GR
+  9 XG$TIM4_UPD_OVF_IRQHandler$0$0                              =  000012 GR
+  9 XG$TLI_IRQHandler$0$0                                       =  000001 GR
+  9 XG$TRAP_IRQHandler$0$0                                      =  000000 GR
+  9 XG$UART1_RX_IRQHandler$0$0                                  =  00000F GR
+  9 XG$UART1_TX_IRQHandler$0$0                                  =  00000E GR
+  9 _ADC1_IRQHandler                                               000011 GR
+  9 _AWU_IRQHandler                                                000002 GR
+  9 _CLK_IRQHandler                                                000003 GR
+  9 _EEPROM_EEC_IRQHandler                                         000013 GR
+  9 _EXTI_PORTA_IRQHandler                                         000004 GR
+  9 _EXTI_PORTB_IRQHandler                                         000005 GR
+  9 _EXTI_PORTC_IRQHandler                                         000006 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 5.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  9 _EXTI_PORTD_IRQHandler                                         000007 GR
+  9 _EXTI_PORTE_IRQHandler                                         000008 GR
+  9 _I2C_IRQHandler                                                000010 GR
+  9 _SPI_IRQHandler                                                000009 GR
+  9 _TIM1_CAP_COM_IRQHandler                                       00000B GR
+  9 _TIM1_UPD_OVF_TRG_BRK_IRQHandler                               00000A GR
+  9 _TIM2_CAP_COM_IRQHandler                                       00000D GR
+  9 _TIM2_UPD_OVF_BRK_IRQHandler                                   00000C GR
+  9 _TIM4_UPD_OVF_IRQHandler                                       000012 GR
+  9 _TLI_IRQHandler                                                000001 GR
+  9 _TRAP_IRQHandler                                               000000 GR
+  9 _UART1_RX_IRQHandler                                           00000F GR
+  9 _UART1_TX_IRQHandler                                           00000E GR
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 6.
+Hexadecimal [24-Bits]
+
+Area Table
+
+   0 _CODE                                      size      0   flags    0
+   1 DATA                                       size      0   flags    0
+   2 INITIALIZED                                size      0   flags    0
+   3 DABS                                       size      0   flags    8
+   4 HOME                                       size      0   flags    0
+   5 GSINIT                                     size      0   flags    0
+   6 GSFINAL                                    size      0   flags    0
+   7 CONST                                      size      0   flags    0
+   8 INITIALIZER                                size      0   flags    0
+   9 CODE                                       size     14   flags    0
+   A CABS                                       size      0   flags    8
+   B .debug_line                                size    302   flags  100
+   C .debug_loc                                 size    190   flags  100
+   D .debug_abbrev                              size     1F   flags  100
+   E .debug_info                                size    306   flags  100
+   F .debug_pubnames                            size    1FD   flags  100
+  10 .debug_frame                               size    334   flags  100
+

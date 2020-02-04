@@ -1,0 +1,15 @@
+-muwx
+-E ./STM8S103F3_DEBUG/STM8S103F3.elf
+-Y
+-y
+-b HOME = 0x8000
+-b DATA = 0x0001
+-b SSEG = 0xffffffff
+-k /usr/local/bin/../share/sdcc/lib/stm8
+-k /usr/local/share/sdcc/lib/stm8
+-l stm8
+STM8S103F3_DEBUG/stm8s_it.rel
+STM8S103F3_DEBUG/main.rel
+STM8S103F3_DEBUG/stm8s_gpio.rel
+
+-e
